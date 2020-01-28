@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>DesktopApp1</title>
+        <vendor>Mobile Apps</vendor>
+        <homepage href=""/>
+        <description>DesktopApp1</description>
+        <description kind="short">DesktopApp1</description>
+    <offline-allowed/>
+</information>
+    <update check="background"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="DesktopApp1.jar" main="true"/>
+    </resources>
+    <application-desc main-class="org.jars.FormLogin">
+    </application-desc>
+</jnlp>
